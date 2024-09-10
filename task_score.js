@@ -12,3 +12,8 @@ let studentName = "Elena";
 let studentSurname = "Tonenkova";
 let student = studentName + " " + studentSurname;
 console.log(`Средний балл ${student} за домашние задания равен ${averageScore} баллам.`)
+
+// Изменение имени
+console.log(studentName.slice(0,1));
+let shortName = studentName.slice(0,1);
+console.log(`"${shortName}. ${studentSurname}"`);
